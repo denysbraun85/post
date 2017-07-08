@@ -250,32 +250,31 @@ body {
 /*==========================ПОЧАТОК ОСНОВНА ЧАСТИНА==================*/
 .main_part {
     max-width: 1400px;
-    height: 390px;
+    max-height: 390px;
     overflow: hidden;
 }
 
 .back_one {
     float: left;
     z-index: 1;
-    width: 195px;
+    max-width: 195px;
 }
 
 .back_two {
     float: right;
-    height: 443px;
+    max-height: 443px;
     z-index: 2;
-    width: 195px;
+    max-width: 195px;
 }
 
 .back_one img {
-    width: 195px;
+    max-width: 195px;
     opacity: 0.5;
 }
 
 .back_two img {
     opacity: 0.5;
-    width: 195px;
-    height: 443px;
+    max-height: 443px;
 }
 
 .slider_picture {
@@ -294,7 +293,7 @@ body {
     position: absolute;
     top: 186px;
     margin-left: 42px;
-    width: 330px;
+    max-width: 330px;
     color: #FFFFFF;
 }
 
@@ -303,7 +302,7 @@ body {
     top: 297px;
     margin-left: 42px;
     color: #FFFFFF;
-    width: 440px;
+    max-width: 440px;
     font-size: 14px;
 }
 
